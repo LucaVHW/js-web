@@ -3,31 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!--Link to FontAwesome stylesheet-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    
+
     <!--Link to Bootstrap theme stylesheet-->
     <link rel="stylesheet" href="https://bootswatch.com/4/solar/bootstrap.min.css">
 
     <!--Link to your stylesheet-->
     <link rel="stylesheet" href="style.css">
-    
+
     <title>Exercise ... : ...</title>
 
 </head>
 <body>
-    
+
     <h1 class="text-center my-5"><i class="fas fa-cat"></i> This is a template <i class="fas fa-cat"></i></h1>
 
 
     <div class="container my-5 py-5 bg-white text-success">
 
-        
+
 
 
         <!-- PLACE YOUR CONTENT HERE-->
-
+        <form name="formcalc">
+          Number 1: <input type="text" name="txtnum1">
+          <br>
+          Number 2: <input type="text" name="txtnum2">
+          <br>
+          Result : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="txtres">
+          <br>
+          <input type="button" value="+" onclick="plus()">
+          <input type="button" value="-" onclick="minus()">
+          <input type="button" value="x" onclick="multiply()">
+          <input type="button" value="/" onclick="divide()">
+        </form>
 
 
 
