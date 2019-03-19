@@ -1,1 +1,16 @@
-/*Use the .scss file instead!*/
+.hm {
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+button {
+  position: relative;
+  top: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,1 +1,13 @@
 //Write your scss here and then compile it to "style.css"...
+.hm {
+  display: flex;
+  flex-direction: row;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+button {
+  position: relative;
+  top: 10px;
+}
